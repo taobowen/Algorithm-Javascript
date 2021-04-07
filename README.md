@@ -4,7 +4,7 @@
 
 **题目列表**
 
-- [树|对称二叉树](./tree/symmetric_binary_trees.md)
+- [树|二叉树的层序遍历](./tree/layer_traverse.md)
 - [树|二叉树的最近公共祖先](./tree/most_recent_common_ancestor.md)
 - [树|二叉树的前序、中序、后序遍历（非递归）](./tree/traverse.md)
 - [树|删除二叉搜索树的结点](./tree/delete_binary_search_trees_node.md)
@@ -17,7 +17,7 @@
 - [DP|零钱兑换](./dp/coins_change.md)
 - [DP|最长连续子序列](./dp/longest_continuous_list.md)
 - [DP|最长上升子序列](./dp/longest_up_list.md)
-- [DP|鸡蛋掉落](./dp/egg_fall.md)
+- [DP|背包问题](./dp/backpack.md)
 - [排序|堆排序](./sort/deap.md)
 - [排序|快速排序](./sort/quick.md)
 - [排序|选择、插入、冒泡](./sort/simple.md)
