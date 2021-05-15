@@ -1,11 +1,42 @@
 **深度优先**
-DFS：当前结点的孩子全部遍历结束，在遍历同一级的节点
-递归版本比较简单，非递归用栈来实现
+非递归用栈来实现，有两种写法，一种是
 上代码：
 ```
-function deepSearch(node) {
-    let stack = [];
-    let answer = [];
+function deepSearch(root) {
+    let stack = [],
+        answer = [];
+
+    while (stack.length || root) {
+        while (root) {
+            if (!root.isVisited) {
+                stack.push(root);
+                root.isVisited = true;
+            }
+            
+            let childIndex = root.children.find(item => {
+                return !item.isVisited;
+            });
+
+            if (!childIndex) {
+                break;
+            }
+
+            root = root.children[childIndex];
+        }
+
+        let outNode = stack.pop();
+        answer.push(outNode.val);
+    }
+
+    return answer;
+}
+```
+
+```
+function deepSearch (root) {
+    let stack = [],
+        answer = [];
+
     if(node) {
         stack.push(node);
         while(stack.length !== 0) {
@@ -23,6 +54,7 @@ function deepSearch(node) {
     return answer;
 }
 ```
+
 **广度优先**
 BFS：先依次遍历兄弟节点，然后遍历兄弟节点下的子节点
 广度优先类似层次遍历，非递归可以用队列来实现
