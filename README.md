@@ -23,3 +23,4 @@
 - [排序|选择、插入、冒泡](./sort/simple.md)
 - [排序|归并排序](./sort/merge.md)
 - [二分|寻找旋转排序数组中的最小值](./dichotomous/rotate_array.md)
+- [双指针|荷兰旗算法](./doublePoint/dutch_flag.md)
