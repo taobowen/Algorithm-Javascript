@@ -24,3 +24,6 @@
 - [排序|归并排序](./sort/merge.md)
 - [二分|寻找旋转排序数组中的最小值](./dichotomous/rotate_array.md)
 - [双指针|荷兰旗算法](./doublePoint/dutch_flag.md)
+- [回溯|子集](./backtrack/subset.md)
+- [回溯|全排列](./backtrack/permute.md)
+
