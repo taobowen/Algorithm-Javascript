@@ -15,6 +15,7 @@
 - [图|DFS、BFS（非递归）](./chart/dfs_bfs.md)
 - [图|检测有向图中是否有环](./chart/ring.md)
 - [DP|零钱兑换](./dp/coins_change.md)
+- [DP|数字组合](./dp/num_list.md)
 - [DP|最长连续子序列](./dp/longest_continuous_list.md)
 - [DP|最长上升子序列](./dp/longest_up_list.md)
 - [DP|背包问题](./dp/backpack.md)
