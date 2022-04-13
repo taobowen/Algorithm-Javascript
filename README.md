@@ -45,6 +45,7 @@
 ## 回溯
 - [子集](./backtrack/subset.md)
 - [全排列](./backtrack/permute.md)
+- [矩阵中的路径](./backtrack/findWord.md)
 
 ## 栈/队列
 
